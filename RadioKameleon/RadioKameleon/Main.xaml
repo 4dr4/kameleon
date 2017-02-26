@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RadioKameleon.Main">
+  <ScrollView HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+  <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+      <Grid>
+        <Grid.RowDefinitions>
+          <RowDefinition Height="7*"/>
+          <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <WebView x:Name="MyWebView" Grid.Row="0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"/>
+        <StackLayout Grid.Row="1" BackgroundColor="Aqua" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"/>
+      </Grid>
+  </StackLayout>
+  </ScrollView>
+</ContentPage>
